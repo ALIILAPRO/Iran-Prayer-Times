@@ -24,17 +24,14 @@ This Python script retrieves and displays the daily prayer times for a given cit
 
 Enter the name of your city in Persian: تهران
 
-┌───────────────────┬───────────────┐
-│ Prayer            │ Time          │
-├───────────────────┼───────────────┤
-│ Morning Azan      │    05:10      │
-│ Sunrise           │    06:33      │
-│ Noon Azan         │    13:02      │
-│ Sunset            │    19:11      │
-│ Maghrib Azan      │    19:31      │
-│ Islamic midnight  │    23:04      │
-└───────────────────┴───────────────┘
-
+Prayer              | Time
+------------------- | -----
+Morning Azan        | 05:10
+Sunrise             | 06:33
+Noon Azan           | 13:02
+Sunset              | 19:11
+Maghrib Azan        | 19:31
+Islamic midnight    | 23:04
 
 
 Note: This script may not provide accurate or up-to-date information about prayer times in Iran. Please verify the information provided with a reliable source before making any religious observances.
