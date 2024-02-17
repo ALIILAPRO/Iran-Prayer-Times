@@ -7,6 +7,7 @@ This Python script retrieves and displays the daily prayer times for a given cit
 - [Installation](#installation)
 - [Usage](#usage)
 - [Example Output](#example-output)
+- [PHP Version](#example-output)
 - [License](#license)
 
 ## Installation
@@ -35,6 +36,33 @@ Islamic midnight    | 23:04
 
 
 Note: This script may not provide accurate or up-to-date information about prayer times in Iran. Please verify the information provided with a reliable source before making any religious observances.
+
+## PHP Version
+The PHP version uses both by cli and requests.
+Examples of using PHP code in CLI:
+1. `php prayer_times.php تهران`
+
+`اذان صبح: ۰۵:۲۴:۴۰
+طلوع آفتاب: ۰۶:۴۸:۳۹
+...`
+
+2. `php prayer_times.php`
+
+`City Name (fa): تهران`
+
+`اذان صبح: ۰۵:۲۴:۴۰
+طلوع آفتاب: ۰۶:۴۸:۳۹
+...`
+
+You may also ask the script to pass its data in English:
+
+`php prayer_times.php تهران en`
+
+`Morning Azan: 05:24:40
+Sunrise: 06:48:39
+...`
+
+If you want to use it by sending request, you can pass the variables `city` and `lang` (optional).
 
 ## License
 
